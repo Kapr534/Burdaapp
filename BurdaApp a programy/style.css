@@ -1,0 +1,85 @@
+nav ul {
+    list-style-type: none;
+    margin-left: 250px;
+    padding: 0;
+    display: flex;
+    z-index: 10;
+}
+
+.indexh1 {
+    color: 111;
+    text-align: center;
+    margin-top: 100px;
+}
+header{
+    background-color: rgb(221, 200, 63);
+    height: 50px;
+    width: 100%;
+}
+header nav ul li {
+    margin-right: 300px;
+    z-index: 10;
+}
+header nav ul li a {
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+    z-index: 10;
+}
+header nav ul li a:hover {
+    color: rgb(31, 92, 197);
+    z-index: 10;
+}
+.circle{
+    width: 200px;
+    height: 50px;
+    background-color: rgba(241, 36, 13,0.8);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0;
+    position: absolute;
+    left: 225px;
+    top: 15px;
+    z-index: 1;
+}
+.zadanihesla {
+    text-align: center;
+    margin-top: 5px;
+}
+input[type="text"] {
+    width: 20%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+    align-items: center;
+}
+
+#output {
+    margin-top: 10px;
+}
+.podminkyh1 {
+    text-align: center;
+    text-decoration: black;
+    margin-top: 10px;
+}
+.podminkyp {
+    text-align: center;
+    text-decoration: black;
+    margin-top: 10px;
+}

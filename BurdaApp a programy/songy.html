@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pro Burdu</title>
+    </head>
+    <body>
+        <div class="circle">adda</div>
+        <header>
+            <nav>
+                <ul>
+                    <li class="burda"><a href="index.html"onclick="navigate('BURDA')">BURDA</a></li>
+                    <li class="songyp"><a href="songy.html" onclick="navigate('Naše Songy')">Naše&nbspSongy</a></li>
+                    <li class="plesatastranka"><a href="plesatastranka.html" onclick="navigate('Naše Pleš')">Naše&nbspPleš</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="zadanihesla">
+            <input type="text" id="Textinput" name="Textinput" placeholder="Zadejte heslo">
+            <button id="submitButton">Odeslat</button>
+            <p id="output"></p>
+            <div id="podminky" style="display: none;">
+                <p>Kliknutím na přijímám souhlasím s podmínkami<a href="podminky.html" target="_blank"><br>podminky</a></p>
+                <button id="podminkyButton">přijímám</button>
+            </div>
+            <div id="song1Container" style="display: none;">
+                <p id="song1output">Burdova Dobrodružství</p>
+                <audio controls>
+                    <source src="ab542288-a034-45cb-af6d-1b1fb9e65b4b.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </body>
+</html>
